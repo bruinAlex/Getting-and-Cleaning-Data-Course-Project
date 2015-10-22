@@ -1,2 +1,6 @@
-# Getting-and-Cleaning-Data-Course-Project
-Course project deliverable for the Getting &amp; Cleaning Data Johns Hopkins Coursera Class
+# Getting & Cleaning Data Course Project
+
+The current course deliverable is comprised of the following:
+  *README.md (this file)
+  *CodeBook.md
+  *run_analysis.R
