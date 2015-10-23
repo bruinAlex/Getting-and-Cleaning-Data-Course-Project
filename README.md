@@ -18,5 +18,5 @@ The data set is comprised of data collected from Samsung Galaxy S smartphone acc
 
 A full description of the data set can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Important Note  
+### Important Note  
 The script must reside in the directory as the 'activity_labels.txt' file from the downloaded data
