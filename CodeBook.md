@@ -4,6 +4,12 @@ After executing the run_analysis.R script, the output tidy data set includes the
 
 ######Note: This code book only applies to the output from the run_analysis.R script, and is not necessarily applicable to the raw data
 
+###Units Used
+Data captured from the sensor signals are filtered per the UCI data set 'features_info.txt' and are denoted in acceleration and angular velocity.
+
+###Summary Methods
+The final tidy data set takes the mean of the variables listed below per the course project instructions.
+
 Variable | Description 
 --- | --- | ---
 **SubjectID** | Number assigned to the person subject
