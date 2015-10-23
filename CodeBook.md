@@ -63,34 +63,34 @@ Variable | Description
 **FreqBodyAccJerk-StdDev-X** | (frequency domain signal)
 **FreqBodyAccJerk-StdDev-Y** | 
 **FreqBodyAccJerk-StdDev-Z** | 
-**fBodyAccJerk-meanFreq()-X** | (frequency domain signal)
-**fBodyAccJerk-meanFreq()-Y** | 
-**fBodyAccJerk-meanFreq()-Z** | 
-**fBodyGyro-mean()-X** | (frequency domain signal)
-**fBodyGyro-mean()-Y** | 
-**fBodyGyro-mean()-Z** | 
-**fBodyGyro-std()-X** | (frequency domain signal)
-**fBodyGyro-std()-Y** | 
-**fBodyGyro-std()-Z** | 
-**fBodyGyro-meanFreq()-X** | (frequency domain signal)
-**fBodyGyro-meanFreq()-Y** | 
-**fBodyGyro-meanFreq()-Z** | 
-**fBodyAccMag-mean()** | (frequency domain signal)
-**fBodyAccMag-std()** | (frequency domain signal)
-**fBodyAccMag-meanFreq()** | (frequency domain signal)
-**fBodyBodyAccJerkMag-mean()** | (frequency domain signal)
-**fBodyBodyAccJerkMag-std()** | (frequency domain signal)
-**fBodyBodyAccJerkMag-meanFreq()** | (frequency domain signal)
-**fBodyBodyGyroMag-mean()** | (frequency domain signal)
-**fBodyBodyGyroMag-std()** | (frequency domain signal)
-**fBodyBodyGyroMag-meanFreq()** | (frequency domain signal)
-**fBodyBodyGyroJerkMag-mean()** | (frequency domain signal)
-**fBodyBodyGyroJerkMag-std()** | (frequency domain signal)
-**fBodyBodyGyroJerkMag-meanFreq()** | (frequency domain signal)
-**angle(tBodyAccMean,gravity)** | (frequency domain signal)
-**angle(tBodyAccJerkMean),gravityMean)** | (frequency domain signal)
-**angle(tBodyGyroMean,gravityMean)** | (frequency domain signal)
-**angle(tBodyGyroJerkMean,gravityMean)** | (frequency domain signal)
-**angle(X,gravityMean)** | (frequency domain signal)
-**angle(Y,gravityMean)** | 
-**angle(Z,gravityMean)** | 
+**FreqBodyAccJerk-MeanFreq-X** | (frequency domain signal)
+**FreqBodyAccJerk-MeanFreq-Y** | 
+**FreqBodyAccJerk-MeanFreq-Z** | 
+**FreqBodyGyro-Mean-X** | (frequency domain signal)
+**FreqBodyGyro-Mean-Y** | 
+**FreqBodyGyro-Mean-Z** | 
+**FreqBodyGyro-StdDev-X** | (frequency domain signal)
+**FreqBodyGyro-StdDev-Y** | 
+**FreqBodyGyro-StdDev-Z** | 
+**FreqBodyGyro-MeanFreq-X** | (frequency domain signal)
+**FreqBodyGyro-MeanFreq-Y** | 
+**FreqBodyGyro-MeanFreq-Z** | 
+**FreqBodyAccMagnitude-Mean** | (frequency domain signal)
+**FreqBodyAccMagnitude-StdDev** | (frequency domain signal)
+**FreqBodyAccMagnitude-MeanFreq** | (frequency domain signal)
+**FreqBodyAccJerkMagnitudenitude-Mean** | (frequency domain signal)
+**FreqBodyAccJerkMagnitudenitude-StdDev** | (frequency domain signal)
+**FreqBodyAccJerkMagnitudenitude-MeanFreq** | (frequency domain signal)
+**FreqBodyGyroMagnitude-Mean** | (frequency domain signal)
+**FreqBodyGyroMagnitude-StdDev** | (frequency domain signal)
+**FreqBodyGyroMagnitude-MeanFreq** | (frequency domain signal)
+**FreqBodyGyroJerkMagnitude-Mean** | (frequency domain signal)
+**FreqBodyGyroJerkMagnitude-StdDev** | (frequency domain signal)
+**FreqBodyGyroJerkMagnitude-MeanFreq** | (frequency domain signal)
+**Angle(tBodyAccMean,Gravity)** | (frequency domain signal)
+**Angle(tBodyAccJerkMean,GravityMean)** | (frequency domain signal)
+**Angle(tBodyGyroMean,GravityMean)** | (frequency domain signal)
+**Angle(tBodyGyroJerkMean,GravityMean)** | (frequency domain signal)
+**Angle(X,GravityMean)** | (frequency domain signal)
+**Angle(Y,GravityMean)** | 
+**Angle(Z,GravityMean)** | 
