@@ -42,27 +42,27 @@ Variable | Description
 **TimeBodyAccMagnitude-StdDev** | Standard deviation of the body accelerometer magnitude (time domain signal)
 **TimeGravityAccMagnitude-Mean** | Standard deviation of the gravity accelerometer magnitude (time domain signal)
 **TimeGravityAccMagnitude-StdDev** | Standard deviation of the gravity accelerometer magnitude (time domain signal)
-**TimeBodyAccJerkMagnitudenitude-Mean** |  (time domain signal)
-**TimeBodyAccJerkMagnitudenitude-StdDev** |  (time domain signal)
-**TimeBodyGyroMagnitude-Mean** |  (time domain signal)
-**TimeBodyGyroMagnitude-StdDev** |  (time domain signal)
-**TimeBodyGyroJerkMagnitude-Mean** |  (time domain signal)
-**TimeBodyGyroJerkMagnitude-StdDev** |  (time domain signal)
-**FreqBodyAcc-Mean-X** |  (frequency domain signal)
-**FreqBodyAcc-Mean-Y** | (frequency domain signal)
-**FreqBodyAcc-Mean-Z** | (frequency domain signal)
-**FreqBodyAcc-StdDev-X** | (frequency domain signal)
-**FreqBodyAcc-StdDev-Y** | 
-**FreqBodyAcc-StdDev-Z** | 
-**FreqBodyAcc-MeanFreq-X** | (frequency domain signal)
-**FreqBodyAcc-MeanFreq-Y** | 
-**FreqBodyAcc-MeanFreq-Z** | 
-**FreqBodyAccJerk-Mean-X** | (frequency domain signal)
-**FreqBodyAccJerk-Mean-Y** | 
-**FreqBodyAccJerk-Mean-Z** | 
-**FreqBodyAccJerk-StdDev-X** | (frequency domain signal)
-**FreqBodyAccJerk-StdDev-Y** | 
-**FreqBodyAccJerk-StdDev-Z** | 
+**TimeBodyAccJerkMagnitude-Mean** | Mean body jerk magnitude (time domain signal)
+**TimeBodyAccJerkMagnitude-StdDev** | Standard deviation of the body jerk magnitude (time domain signal)
+**TimeBodyGyroMagnitude-Mean** | Mean body gyroscopic magnitude (time domain signal)
+**TimeBodyGyroMagnitude-StdDev** | Standard deviation of the body gyroscopic magnitude (time domain signal)
+**TimeBodyGyroJerkMagnitude-Mean** | Mean body gyroscopic jerk magnitude (time domain signal)
+**TimeBodyGyroJerkMagnitude-StdDev** | Standard deviation of the body gyroscopic jerk magnitude (time domain signal)
+**FreqBodyAcc-Mean-X** | Mean body motion acceleration from the accelerometer along the X-axis (frequency domain signal)
+**FreqBodyAcc-Mean-Y** | Mean body motion acceleration from the accelerometer along the Y-axis (frequency domain signal)
+**FreqBodyAcc-Mean-Z** | Mean body motion acceleration from the accelerometer along the Z-axis (frequency domain signal)
+**FreqBodyAcc-StdDev-X** | Standard deviation of the body motion acceleration from the accelerometer along the X-axis (frequency domain signal)
+**FreqBodyAcc-StdDev-Y** | Standard deviation of the body motion acceleration from the accelerometer along the Y-axis (frequency domain signal)
+**FreqBodyAcc-StdDev-Z** | Standard deviation of the body motion acceleration from the accelerometer along the Z-axis (frequency domain signal)
+**FreqBodyAcc-MeanFreq-X** | Mean frequency of the FreqBodyAcc-Mean-X measurement (frequency domain signal)
+**FreqBodyAcc-MeanFreq-Y** | Mean frequency of the FreqBodyAcc-Mean-Y measurement (frequency domain signal)
+**FreqBodyAcc-MeanFreq-Z** | Mean frequency of the FreqBodyAcc-Mean-Z measurement (frequency domain signal)
+**FreqBodyAccJerk-Mean-X** | Mean body jerk motion acceleration from the accelerometer along the X-axis (frequency domain signal)
+**FreqBodyAccJerk-Mean-Y** | Mean body jerk motion acceleration from the accelerometer along the Y-axis (frequency domain signal)
+**FreqBodyAccJerk-Mean-Z** | Mean body jerk motion acceleration from the accelerometer along the Z-axis (frequency domain signal)
+**FreqBodyAccJerk-StdDev-X** | Standard deviation of the body jerk motion acceleration from the accelerometer along the X-axis (frequency domain signal)
+**FreqBodyAccJerk-StdDev-Y** | Standard deviation of the body jerk motion acceleration from the accelerometer along the Y-axis (frequency domain signal)
+**FreqBodyAccJerk-StdDev-Z** | Standard deviation of the body jerk motion acceleration from the accelerometer along the Z-axis (frequency domain signal)
 **FreqBodyAccJerk-MeanFreq-X** | (frequency domain signal)
 **FreqBodyAccJerk-MeanFreq-Y** | 
 **FreqBodyAccJerk-MeanFreq-Z** | 
