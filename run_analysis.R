@@ -1,21 +1,16 @@
-# You should create one R script called run_analysis.R that does the following. 
-# Merges the training and the test sets to create one data set.
-# Extracts only the measurements on the mean and standard deviation for each measurement. 
-# Uses descriptive activity names to name the activities in the data set
-# Appropriately labels the data set with descriptive variable names. 
-# From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-# 
 #####################################################
 # run_analysis.R
 # Johns Hopkins University
 # Getting and Cleaning Data Course Project
 # Alex Lau
 # 10/14/15
+#
+# Please see README.md and CodeBook.md for further
+# information
 #####################################################
 
 # Load libraries
-library(plyr)
-library(dplyr)
+library(reshape2)
 
 
 ### Step 1: Merge the training and test sets to create one data set
@@ -64,13 +59,41 @@ library(dplyr)
   # Create a vector of variables that calculate a mean or std. deviation
   extractList <- grep(c("(mean)|(std)"), featuresLabels$V2, value = TRUE)
   
-  # Return a data frame containing only these measurements; ignores angle calculations
-  # extractedDat <- select(mergedData, matches("(mean)|(std)"), -contains("angle"))
-  
   # Return a data frame containing only these measurements
   extractedDat <- select(mergedData, matches("(SubjectID)|(TrainingType)|(mean)|(std)"))
   
-### Step 3: Extr
+### Step 3: Use descriptive activity names instead of numbers
+  # Task completed in Step 1 (line 55)
+  
+### Step 4: Label data set with descriptive names
+  # Use the gsub method to make many, many variable name replacements
+
+  names(extractedDat) <- gsub("-mean","-Mean",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("-std","-StdDev",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("-std$","-StdDev",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("^(t)","Time",names(extractedDat), ignore.case = FALSE)
+  names(extractedDat) <- gsub("^(f)","Freq",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("(gravity)","Gravity",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("(body)","Body",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("(bodybody)","Body",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("(gyro)","Gyro",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("AccMag","AccMagnitude",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("bodyaccjerkmag","BodyAccJerkMagnitude",names(extractedDat), 
+                              ignore.case = TRUE)
+  names(extractedDat) <- gsub("JerkMag","JerkMagnitude",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("GyroMag","GyroMagnitude",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("\\()","",names(extractedDat), ignore.case = TRUE)
+  names(extractedDat) <- gsub("angle","Angle",names(extractedDat), ignore.case = TRUE)
+
   # Write out name list to file
   write(names(extractedDat), file = "extractedDatNames.txt")
 
+### Step 5: Export tidy data set with the average of each variable for each activity and each subject.
+  # Melt the data into a long-format data set
+  meltData <- melt(extractedDat, id = c("SubjectID", "TrainingType"))
+  
+  # Recast the data while summarizing and calculating the mean
+  tidyData <- dcast(meltData, SubjectID + TrainingType ~ variable, mean)
+  
+  # Write the tidy data set out to a .txt file for uploading
+  write.table(tidyData, "tidyData.txt", row.names = FALSE, quote = FALSE)
