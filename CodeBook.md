@@ -1,4 +1,7 @@
 #CodeBook — UCI Human Activity Recognition Using Smartphones Dataset (Tidy)
+
+After executing the run_analysis.R script, the output tidy data set includes the following 88 variables below.
+
 ######Note: This code book only applies to the output from the run_analysis.R script, and is not necessarily applicable to the raw data
 
 Variable | Description 
