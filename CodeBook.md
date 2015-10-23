@@ -32,16 +32,16 @@ Variable | Description
 **tBodyGyro-std()-X** | Standard deviation of the motion acceleration from the gyroscope along the X-axis (time domain signal)
 **tBodyGyro-std()-Y** | Standard deviation of the motion acceleration from the gyroscope along the Y-axis (time domain signal)
 **tBodyGyro-std()-Z** | Standard deviation of the motion acceleration from the gyroscope along the Z-axis (time domain signal)
-**tBodyGyroJerk-mean()-X** |  (time domain signal)
-**tBodyGyroJerk-mean()-Y** | 
-**tBodyGyroJerk-mean()-Z** | 
-**tBodyGyroJerk-std()-X** |  (time domain signal)
-**tBodyGyroJerk-std()-Y** | 
-**tBodyGyroJerk-std()-Z** | 
-**tBodyAccMag-mean()** |  (time domain signal)
-**tBodyAccMag-std()** |  (time domain signal)
-**tGravityAccMag-mean()** |  (time domain signal)
-**tGravityAccMag-std()** |  (time domain signal)
+**tBodyGyroJerk-mean()-X** | Mean body jerk motion from the gyroscope along the X-axis (time domain signal)
+**tBodyGyroJerk-mean()-Y** | Mean body jerk motion from the gyroscope along the Y-axis (time domain signal)
+**tBodyGyroJerk-mean()-Z** | Mean body jerk motion from the gyroscope along the Z-axis (time domain signal)
+**tBodyGyroJerk-std()-X** | Standard deviation of the body jerk motion from the gyroscope along the X-axis (time domain signal)
+**tBodyGyroJerk-std()-Y** | Standard deviation of the body jerk motion from the gyroscope along the Y-axis (time domain signal)
+**tBodyGyroJerk-std()-Z** | Standard deviation of the body jerk motion from the gyroscope along the Z-axis (time domain signal)
+**tBodyAccMag-mean()** | Mean body accelerometer magnitude (time domain signal)
+**tBodyAccMag-std()** | Standard deviation of the body accelerometer magnitude (time domain signal)
+**tGravityAccMag-mean()** | Standard deviation of the gravity accelerometer magnitude (time domain signal)
+**tGravityAccMag-std()** | Standard deviation of the gravity accelerometer magnitude (time domain signal)
 **tBodyAccJerkMag-mean()** |  (time domain signal)
 **tBodyAccJerkMag-std()** |  (time domain signal)
 **tBodyGyroMag-mean()** |  (time domain signal)
