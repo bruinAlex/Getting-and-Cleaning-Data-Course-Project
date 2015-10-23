@@ -3,7 +3,7 @@
 
 Variable | Description 
 --- | --- | ---
-**SubjectID** | Experiment subject identifier (number)
+**SubjectID** | Number assigned to the person subject
 **TrainingType** | Six types of activity were tracked: Walking, walking upstairs, walking downstairs, sitting, standing and laying
 **tBodyAcc-mean()-X** | 
 **tBodyAcc-mean()-Y** | 
