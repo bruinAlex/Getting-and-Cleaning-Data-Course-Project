@@ -5,13 +5,13 @@ Variable | Description
 --- | --- | ---
 **SubjectID** | Number assigned to the person subject
 **TrainingType** | Six types of activity were tracked: Walking, walking upstairs, walking downstairs, sitting, standing and laying
-**tBodyAcc-mean()-X** | Mean time measurement of body acceleration on the X-axis
+**tBodyAcc-mean()-X** | Mean body motion acceleration from the accelerometer along the X-axis
 **tBodyAcc-mean()-Y** | Mean time measurement of body acceleration on the Y-axis
 **tBodyAcc-mean()-Z** | Mean time measurement of body acceleration on the Z-axis
 **tBodyAcc-std()-X** | 
 **tBodyAcc-std()-Y** | 
 **tBodyAcc-std()-Z** | 
-**tGravityAcc-mean()-X** | 
+**tGravityAcc-mean()-X** | Mean gravity motion acceleration from the accelerometer along the X-axis
 **tGravityAcc-mean()-Y** | 
 **tGravityAcc-mean()-Z** | 
 **tGravityAcc-std()-X** | 
